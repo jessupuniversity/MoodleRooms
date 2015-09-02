@@ -39,7 +39,7 @@ h4{
 }
 
 /* experiments in tabs */
-div.items div{
+div.items div:not(:target){
   display: none;
 }
 div.items div:target {
