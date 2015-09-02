@@ -51,8 +51,8 @@ article.tabs
 {
 	position: relative;
 	display: block;
-	width: auto;
-	height: auto;
+	width: 40em;
+	height: 15em;
 	margin: 2em auto;
 }
 article.tabs section
@@ -61,6 +61,7 @@ article.tabs section
 	display: block;
 	top: 1.8em;
 	left: 0;
+	height:12em;
 	padding: 10px 20px;
 	background-color: #ddd;
 	border-radius: 5px;
