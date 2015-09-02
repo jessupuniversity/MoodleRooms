@@ -46,3 +46,97 @@ div.items div:target {
   display:block;
 }
 
+/* More experiments in Tabs (For CSS TEST 2) */
+span {
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+}
+
+/* --Basic tab dimension-- */
+#tab {
+  width:400px;
+  margin:200px auto 200px;
+}
+
+#tab > ul {
+  margin:0 0;
+  padding:0 0;
+  height:30px;
+  overflow:hidden;
+}
+
+#tab > ul li {
+  float:left;
+  display:inline;
+  list-style:none;
+  margin:0 4px 0 0;
+  padding:0 0;
+}
+
+#tab > ul li a {
+  display:block;
+  background-color:black;
+  font-weight:bold;
+  font-size:11px;
+  line-height:30px;
+  height:30px;
+  color:white;
+  text-decoration:none;
+  padding:0 30px;
+}
+
+#tab > div {
+  clear:both;
+  background-color:darkred;
+  padding:0 15px;
+  height:0;
+  overflow:hidden;
+  visibility:hidden;
+  -webkit-transition:all .4s ease-in-out;
+  -moz-transition:all .4s ease-in-out;
+  -ms-transition:all .4s ease-in-out;
+  -o-transition:all .4s ease-in-out;
+  transition:all .4s ease-in-out;
+}
+
+
+/* ================================
+   Here's the CSS :target job list
+   ================================ */
+
+/* Reset the first tab button and the first tab content to the default behaviour if the hash is active */
+span:target ~ #tab > ul li:first-child a {
+  background-color:black;
+  color:white;
+}
+
+span:target ~ #tab > div:first-of-type {
+  visibility:hidden;
+  height:0;
+  padding:0 15px;
+}
+
+/* Always show the first tab container by default */
+span ~ #tab > div:first-of-type,
+/* Show a specific tab content based on the 'selected' target element */
+#read:target ~ #tab > div.read-content,
+#view:target ~ #tab > div.view-content,
+#assignments:target ~ #tab > div.assignments-content,
+{
+  visibility:visible;
+  height:250px;
+  padding:10px 15px;
+}
+
+/* Always set the first tab with a 'current color' by default */
+span ~ #tab > ul li:first-child a,
+/* Set the current tab button color based on the 'selected' target element */
+#read:target ~ #tab > ul li a[href$="#read"],
+#view:target ~ #tab > ul li a[href$="#view"],
+#assignments:target ~ #tab > ul li a[href$="#assignments"],
+{
+  background-color:darkred;
+  color:black;
+}
