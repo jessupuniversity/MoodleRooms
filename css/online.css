@@ -5,3 +5,13 @@ h3{
   font-size: large;
   font-weight: bold;
 }
+nobullet.li{
+  margin-left: 5px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+nobulletindent.li{
+  margin-left: 30px; 
+  padding-bottom: 10px;
+  list-style-type: none;
+}
