@@ -31,6 +31,7 @@ h4{
   list-style-type:none;
 }
 .bullet li{
+  margin-left: 30px;
   padding-bottom:10px;
 }
 .bulletnest li{
