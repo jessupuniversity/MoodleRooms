@@ -1,5 +1,5 @@
 $('header.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
-$('.right a .one').attr('src', 'http://my.jessup.edu/moodlerooms/img/view_topic.png');
+$('.right a .one').attr('src', 'https://jessupuniversity.github.io/img/view_topic.png');
 $('span.arrow.sep').text('›');
 $('.block_conduit li:first-child .icon img').attr('src', 'http://jessup.mrooms.net/theme/image.php/clean/core/1427737283/i/report');
 $('.block_conduit .r1 .icon img').attr('src', 'http://jessup.mrooms.net/theme/image.php/clean/core/1427737283/i/settings');
