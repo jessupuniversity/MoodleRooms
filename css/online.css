@@ -108,7 +108,7 @@ article.tabs section h3 a
 	outline: 0 none;
 }
 article.tabs section:target,
-article.tabs section:target h2
+article.tabs section:target h3
 {
 	color: #333;
 	background-color: #fff;
