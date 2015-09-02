@@ -1,0 +1,46 @@
+.jessup-online.header {
+	background-color: #022f59;
+	color:#fff;
+	padding:1px;
+	text-align:center;
+}
+.jessup-online.header:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.jessup-online.header img {
+	float: left;
+	height:120px;
+}
+.jessup-online.header .division {
+	font-weight:700;
+	font-size:1.6em;
+	font-style:italic;
+	margin:1em 0 .25em;
+	text-transform:uppercase;
+}
+.jessup-online.header .course {
+	font-weight:700;
+	font-size:1.6em;
+}
+#page-mod-hsuforum-view #region-main {
+	max-width:none;
+	padding:0;
+}
+#page-mod-hsuforum-view #hsuforum-filter-options .singleselect {
+	margin-bottom:10px;
+}
+@media (max-width: 767px){
+	.jessup-online.header img {
+		float: none;
+	}
+	.jessup-online.header p {
+		margin-left: 1em !important;
+		margin-right: 1em !important;
+		text-align:left;
+	}
+}
