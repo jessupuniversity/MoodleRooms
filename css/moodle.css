@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700');
 @import url('online.css');
 
 body{
@@ -23,7 +23,7 @@ a:hover {
 	text-shadow:none !important;
 }
 .navbar .brand {
-	background: url('//my.jessup.edu/moodlerooms/img/wju_h_white.png') no-repeat left center;
+	background: url('../img/wju_h_white.png') no-repeat left center;
 	background-size: auto 50%;
 	height: 0px;
 	padding:68px 10px 0 !important;
@@ -127,14 +127,14 @@ h1, h2, h3, h4.categoryname {
 	line-height:1.4em !important;
 }
 .course-content ul.folderview img.folder_icon {
-	background: url('//my.jessup.edu/moodlerooms/img/folder_closed.png') no-repeat;
+	background: url('../img/folder_closed.png') no-repeat;
 	background-size:100% 100%;
 	opacity:0.4;
 	width:32px;
 	height:32px;
 }
 .course-content ul.folderview .expanded img.folder_icon{
-	background-image: url('//my.jessup.edu/moodlerooms/img/folder_opened.png');
+	background-image: url('../img/folder_opened.png');
 }
 div.left.side {
 	/* display:none; */
