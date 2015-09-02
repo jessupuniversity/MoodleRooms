@@ -51,6 +51,8 @@ article.tabs
 {
 	position: relative;
 	display: block;
+	width: auto;
+	height: auto;
 	margin: 2em auto;
 }
 article.tabs section
