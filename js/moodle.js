@@ -9,9 +9,9 @@ if( $('#page-header h1').text() != 'WJU Online Learning'){
 }
 
 var backgrounds = [
-	'url(http://my.jessup.edu/moodlerooms/img/wjuMoodleHeader01.jpg)', 
-	'url(http://my.jessup.edu/moodlerooms/img/wjuMoodleHeader02.jpg)', 
-	'url(http://my.jessup.edu/moodlerooms/img/wjuMoodleHeader03.jpg)'
+	'url(https://jessupuniversity.github.io/img/wjuMoodleHeader01.jpg)', 
+	'url(https://jessupuniversity.github.io/img/wjuMoodleHeader02.jpg)', 
+	'url(https://jessupuniversity.github.io/img/wjuMoodleHeader03.jpg)'
 ];
 var index = Math.floor(Math.random() * (3 - 0)) + 0;
 
