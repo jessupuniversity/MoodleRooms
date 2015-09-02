@@ -36,5 +36,5 @@ h4{
 }
 .bulletnest li{
   padding-top: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 0px !important;
 }
