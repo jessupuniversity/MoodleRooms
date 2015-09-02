@@ -44,6 +44,5 @@ div.items div:not(:target){
 }
 div.items div:target {
   display:block;
-  border: 1px;
 }
 
