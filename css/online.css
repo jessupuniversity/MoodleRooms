@@ -5,6 +5,17 @@ h3{
   font-size: large;
   font-weight: bold;
 }
+.first h3{
+  color: #022F59;
+  font-size: large;
+  font-weight: bold;
+}
+h4{
+  margin-left:30px;
+  color: #022F59;
+  font-size: 11pt;
+  font-weight: bold;
+}
 .nobullet li{
   margin-left: 5px;
   padding-bottom: 10px;
@@ -14,4 +25,14 @@ h3{
   margin-left: 30px; 
   padding-bottom: 10px;
   list-style-type: none;
+}
+.nobulletnest li{
+  padding-top:10px;
+  list-style-type:none;
+}
+.bullet li{
+  padding-bottom:10px;
+}
+.bulletnest li{
+  padding-top: 10px;
 }
