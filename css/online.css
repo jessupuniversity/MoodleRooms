@@ -104,6 +104,6 @@ div.items div:target {
   border-bottom: 1px solid white;
   z-index: 2;
 }
-[type=radio]:checked ~ label ~ .cmfcontent {
+[type=radio]:checked ~ label:nth-child(n) ~ .cmfcontent {
   z-index: 1;
 }
