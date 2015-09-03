@@ -50,17 +50,17 @@ div.items div:target {
  *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
 
    .main {margin: 0 auto; min-width: 320px; max-width: 800px;}
-   .content {background: #fff; color: #373737;}
-   .content > div {display: none; padding: 20px 25px 5px;}
+   .tabcontent {background: #fff; color: #373737;}
+   .tabcontent > div {display: none; padding: 20px 25px 5px;}
  
    input {display: none;}
    label {display: inline-block; padding: 15px 25px; font-weight: 600; text-align: center;}
    label:hover {color: #fff; cursor: pointer;}
    input:checked + label {background: #ed5a6a; color: #fff;}
  
-   #tab1:checked ~ .content #content1,
-   #tab2:checked ~ .content #content2,
-   #tab3:checked ~ .content #content3,
-   #tab4:checked ~ .content #content4 {
+   #tab1:checked ~ .tabcontent #content1,
+   #tab2:checked ~ .tabcontent #content2,
+   #tab3:checked ~ .tabcontent #content3,
+   #tab4:checked ~ .tabcontent #content4 {
      display: block;
    }
