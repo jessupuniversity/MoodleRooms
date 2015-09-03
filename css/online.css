@@ -46,7 +46,7 @@ div.items div:target {
   display:block;
 }
 
-/* even more experiments in tabs */
+/* even more experiments in tabs 
   *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
    body {background: #2F2556; color: #B9B5C7; font: 14px 'Open Sans', sans-serif;}
  
@@ -71,3 +71,4 @@ div.items div:target {
    {
      display: block !important;
    }
+*/
