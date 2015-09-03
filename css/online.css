@@ -58,9 +58,9 @@ div.items div:target {
    label:hover {color: #fff; cursor: pointer;}
    input:checked + label {background: #ed5a6a; color: #fff;}
  
-   #tab1:checked ~ .tabcontent #content1,
-   #tab2:checked ~ .tabcontent #content2,
-   #tab3:checked ~ .tabcontent #content3,
-   #tab4:checked ~ .tabcontent #content4 {
+   #read:checked ~ .tabcontent #readcontent,
+   #view:checked ~ .tabcontent #viewcontent,
+   #assignments:checked ~ .tabcontent #assignmentscontent,
+   {
      display: block;
    }
