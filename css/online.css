@@ -46,7 +46,7 @@ div.items div:target {
   display:block;
 }
 
-/* even more experiments in tabs */
+/* even more experiments in tabs 
   *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
    .main {margin: 0 auto; min-width: 320px; max-width: 800px;}
    .tabcontent {background: #fff; color: #373737;}
@@ -66,5 +66,44 @@ div.items div:target {
    {
      display: block !important;
    }
+*/
 
-
+/* for CSS Test 3 */
+.alltabs {
+  position: relative;   
+  min-height: 200px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.cmftab {
+  float: left;
+}
+.cmftab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+}
+.cmftab [type=radio] {
+  display: none;   
+}
+.cmfcontent {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
