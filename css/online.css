@@ -46,7 +46,7 @@ div.items div:target {
   display:block;
 }
 
-/* even more experiments in tabs 
+/* even more experiments in tabs */
   *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
    .main {margin: 0 auto; min-width: 320px; max-width: 800px;}
    .tabcontent {background: #fff; color: #373737;}
@@ -61,18 +61,18 @@ div.items div:target {
    {
      display: block !important;
    }
-   #view:checked ~ .tabcontent #viewcontent,
+   #view:checked ~ label:nth-child(n) ~ .tabcontent #viewcontent,
    #assignments:checked ~ .tabcontent #assignmentscontent
    {
      display: block !important;
    }
-*/
 
-/* for CSS Test 3 */
+
+/* for CSS Test 3 
 .alltabs {
   position: relative;   
-  min-height: auto; /* This part sucks */
-  clear: both;
+  min-height: 200px; 
+ clear: both;
   margin: 25px 0;
 }
 .cmftab {
@@ -107,3 +107,4 @@ div.items div:target {
 [type=radio]:checked ~ label:nth-child(n) ~ .cmfcontent {
   z-index: 1;
 }
+*/
