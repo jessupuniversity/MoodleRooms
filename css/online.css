@@ -59,6 +59,9 @@ div.items div:target {
    input:checked + label {background: #ed5a6a; color: #fff;}
  
    #read:checked ~ .tabcontent #readcontent,
+   {
+     display: block !important;
+   }
    #view:checked ~ .tabcontent #viewcontent,
    #assignments:checked ~ .tabcontent #assignmentscontent,
    {
