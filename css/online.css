@@ -46,9 +46,7 @@ div.items div:target {
   display:block;
 }
 
-/* even more experiments in tabs */
- .force-repaint { -webkit-animation: bugfix infinite 1s; }
-@-webkit-keyframes bugfix { from { fill: 0; } to { fill: 0; } }
+/* even more experiments in tabs 
   *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
    .main {margin: 0 auto; min-width: 320px; max-width: 800px;}
    .tabcontent {background: #fff; color: #373737;}
@@ -69,7 +67,7 @@ div.items div:target {
      display: block !important;
    }
 
-
+*/
 /* for CSS Test 3 
 .alltabs {
   position: relative;   
