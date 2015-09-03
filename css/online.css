@@ -45,3 +45,26 @@ div.items div:not(:target){
 div.items div:target {
   display:block;
 }
+
+/* even more experiments in tabs */
+ *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+   body {background: #2F2556; color: #B9B5C7; font: 14px 'Open Sans', sans-serif;}
+ 
+   h1 {padding: 100px 0; font-weight: 400; text-align: center;}
+   p {margin: 0 0 20px; line-height: 1.5;}
+ 
+   .main {margin: 0 auto; min-width: 320px; max-width: 800px;}
+   .content {background: #fff; color: #373737;}
+   .content > div {display: none; padding: 20px 25px 5px;}
+ 
+   input {display: none;}
+   label {display: inline-block; padding: 15px 25px; font-weight: 600; text-align: center;}
+   label:hover {color: #fff; cursor: pointer;}
+   input:checked + label {background: #ed5a6a; color: #fff;}
+ 
+   #tab1:checked ~ .content #content1,
+   #tab2:checked ~ .content #content2,
+   #tab3:checked ~ .content #content3,
+   #tab4:checked ~ .content #content4 {
+     display: block;
+   }
