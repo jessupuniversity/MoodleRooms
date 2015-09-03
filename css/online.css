@@ -47,6 +47,8 @@ div.items div:target {
 }
 
 /* even more experiments in tabs */
+ .force-repaint { -webkit-animation: bugfix infinite 1s; }
+@-webkit-keyframes bugfix { from { fill: 0; } to { fill: 0; } }
   *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
    .main {margin: 0 auto; min-width: 320px; max-width: 800px;}
    .tabcontent {background: #fff; color: #373737;}
