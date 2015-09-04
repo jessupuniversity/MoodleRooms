@@ -46,8 +46,7 @@ div.items div:target {
   display:block;
 }
 
-/* even more experiments in tabs 
-  *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+ *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
    .main {margin: 0 auto; min-width: 320px; max-width: 800px;}
    .tabcontent {background: #fff; color: #373737;}
    .tabcontent > div {display: none; padding: 20px 25px 5px;}
@@ -57,17 +56,12 @@ div.items div:target {
    label:hover {color: #fff; cursor: pointer;}
    input:checked + label {background: #ed5a6a; color: #fff;}
  
-   [id^="read"]:checked ~ [id^="readcontent"]
-   {
-     display: block !important;
-   }
-   #view:checked ~ label:nth-child(n) ~ .tabcontent #viewcontent,
+   #read:checked ~ .tabcontent #readcontent
+   #view:checked ~ .tabcontent #viewcontent,
    #assignments:checked ~ .tabcontent #assignmentscontent
    {
-     display: block !important;
+     display: block;
    }
-
-*/
 /* for CSS Test 3 
 .alltabs {
   position: relative;   
