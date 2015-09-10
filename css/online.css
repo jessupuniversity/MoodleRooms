@@ -76,15 +76,12 @@ h1 span {
 }
 */
 
-div #intro.box.generalbox{
-  height:1000px;
-}
+
 .tabs {
-  width: 650px;
-  float: none;
-  list-style: none;
-  position: absolute;
-  margin: 80px 0 0 10px;
+  width: 95%;
+  float: left;
+  position: relative;
+  margin: 20px 0 0 10px;
   text-align: left;
 }
 .tabs li {
@@ -92,33 +89,30 @@ div #intro.box.generalbox{
   display: block;
 }
 .tabs input[type="radio"] {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
+  display:none;
 }
 .tabs label {
   display: block;
-  padding: 14px 21px;
+  padding: 10px 15px;
   border-radius: 2px 2px 0 0;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: normal;
   background: #e3e3e3;
   cursor: pointer;
-  position: relative;
   top: 4px;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  
 }
 .tabs label:hover {
   background: #D0D0D0 ;
 }
-.tabs .tab-content {
+.tab-content {
 
   display: none;
   overflow: visible;
-  width: 100%;
   font-size: 17px;
   line-height: 25px;
   padding: 25px;
@@ -127,12 +121,12 @@ div #intro.box.generalbox{
   left: 0;
   z-index: 2;
   background: #FFF;
-  height: 1000px;
 }
 .tabs [id^="tab"]:checked + label {
   top: 0;
-  padding-top: 17px;
-  background: #e3e3e3;
+  padding-left: 15px;
+  background: #022F59;
+  color: #fff;
 }
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
