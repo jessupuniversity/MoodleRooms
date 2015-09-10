@@ -281,7 +281,7 @@ h1 span {
   transition: all 0.2s ease-in-out;
 }
 .tabs label:hover {
-  background: #703688;
+  background: #D0D0D0 ;
 }
 .tabs .tab-content {
   z-index: 2;
@@ -294,12 +294,12 @@ h1 span {
   position: absolute;
   top: 53px;
   left: 0;
-  background: #612e76;
+  background: #FFFF00;
 }
 .tabs [id^="tab"]:checked + label {
   top: 0;
   padding-top: 17px;
-  background: #612e76;
+  background: #FFF;
 }
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
