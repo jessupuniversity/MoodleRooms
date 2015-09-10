@@ -117,7 +117,7 @@ div #intro.box.generalbox{
 .tabs .tab-content {
 
   display: none;
-  overflow: hidden;
+  overflow: visible;
   width: 100%;
   font-size: 17px;
   line-height: 25px;
