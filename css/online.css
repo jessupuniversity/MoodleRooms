@@ -107,7 +107,7 @@ div.items div:target {
 }
 */
 
-/* This is for CSS & JQUERY TEST */
+/* This is for CSS & JQUERY TEST 
 .cmftabs{
   width:100%
   display:inline-block;
@@ -152,7 +152,7 @@ li.active a, li.active a:hover{
 .cmftab.active{
   display:block;
 }
-
+*/
 
 
 /* THIS IS CSS FOR RYAN'S TEST
@@ -283,7 +283,7 @@ h1 span {
   background: #D0D0D0 ;
 }
 .tabs .tab-content {
-  z-index: 2;
+  z-index: 1;
   display: none;
   overflow: hidden;
   width: 100%;
