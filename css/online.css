@@ -221,14 +221,17 @@ li.active a, li.active a:hover{
   box-sizing: border-box;
 }
 
+/* COLOR THAT IS NOT NEEDED
 body {
   padding: 20px;
   text-align: left;
   font-family: Lato;
-  color: #fff;
-  background: #9b59b6;
+  color: #000;
+  background: #FFFFFF;
 }
+*/
 
+/* 
 h1 {
   font-weight: normal;
   font-size: 40px;
@@ -242,6 +245,7 @@ h1 span {
   display: block;
   padding-left: 4px;
 }
+*/
 
 .tabs {
   width: 650px;
