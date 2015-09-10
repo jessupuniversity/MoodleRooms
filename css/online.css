@@ -272,7 +272,7 @@ h1 span {
   font-size: 20px;
   font-weight: normal;
   text-transform: uppercase;
-  background: #F0F0F0;
+  background: #e3e3e3;
   cursor: pointer;
   position: relative;
   top: 4px;
@@ -301,7 +301,7 @@ h1 span {
 .tabs [id^="tab"]:checked + label {
   top: 0;
   padding-top: 17px;
-  background: #E8E8E8;
+  background: #e3e3e3;
 }
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
