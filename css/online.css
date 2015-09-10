@@ -249,6 +249,7 @@ h1 span {
 
 .tabs {
   width: 650px;
+  height: 650px;
   float: none;
   list-style: none;
   position: relative;
@@ -294,7 +295,7 @@ h1 span {
   position: absolute;
   top: 53px;
   left: 0;
-  background: #FFFF00;
+  background: #FFF;
   height: 1000px;
 }
 .tabs [id^="tab"]:checked + label {
