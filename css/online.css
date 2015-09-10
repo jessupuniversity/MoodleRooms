@@ -83,7 +83,7 @@ div #intro.box.generalbox{
   width: 650px;
   float: none;
   list-style: none;
-  position: relative;
+  position: absolute;
   margin: 80px 0 0 10px;
   text-align: left;
 }
