@@ -294,7 +294,7 @@ h1 span {
   position: absolute;
   top: 53px;
   left: 0;
-  background: #FFFF00;
+  height: 100%;
 }
 .tabs [id^="tab"]:checked + label {
   top: 0;
