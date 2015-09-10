@@ -277,7 +277,6 @@ h1 span {
   transition: all 0.2s ease-in-out;
 }
 .tabs label:hover {
-  background: #703688;
 }
 .tabs .tab-content {
   z-index: 2;
