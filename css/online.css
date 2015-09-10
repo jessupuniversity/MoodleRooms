@@ -76,6 +76,9 @@ h1 span {
 }
 */
 
+div #intro.box.generalbox{
+  height:1000px;
+}
 .tabs {
   width: 650px;
   float: none;
