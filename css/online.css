@@ -80,7 +80,7 @@ h1 span {
   width: 650px;
   float: none;
   list-style: none;
-  position: absolute;
+  position: relative;
   margin: 80px 0 0 10px;
   text-align: left;
 }
