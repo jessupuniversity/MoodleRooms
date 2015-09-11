@@ -76,12 +76,18 @@ h1 span {
 }
 */
 
-
+.obj-wrapper{
+  position:relative;
+  width:100%;
+  padding-bottom:40%;
+  height:0;
+  overflow:hidden;
+}
 
 
 .tabs {
   width: 95%;
-  position: relative;
+  position: absolute;
   margin: 20px 0 0 10px;
   text-align: left;
 }
