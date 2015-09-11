@@ -222,3 +222,55 @@ p.link a:hover {
 }
 */
 
+
+.tabbs{
+    max-width: 650px;
+    margin: 20px;       
+    font-size: 0;
+}
+.tabbs input[type="radio"]{
+    display: none;
+}
+.tabbs label{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2C3E50;
+    color: #fff;    
+    font-size: 24px;   
+}
+.tabbs label:hover{   
+    background: #4B6988;
+}
+.tabbs label:active,
+.tabbs label:focus{   
+    background: #0088CC;
+}
+.tabbs input[type="radio"]:checked + label{
+    display: inline-block; 
+    background: #0088CC;
+    color: #fff;
+}
+.tabb-content{
+    display: none;
+    font-size: 14px;
+    font-family: 'segoe ui';
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-top: none;
+    position: relative;
+}
+.tabb-content:before{
+    content: '';
+    position: absolute; top: 0; left: -1px;
+    width: calc(100% + 2px);
+    height: 10px;
+    background: #08C;    
+}
+.tabb-content h3{
+    font-size: 22px;
+}
+.tabbs #tabb1:checked ~ #tabb-content1,
+.tabbs #tabb2:checked ~ #tabb-content2,
+.tabbs #tabb3:checked ~ #tabb-content3{     
+    display: block;
+}
