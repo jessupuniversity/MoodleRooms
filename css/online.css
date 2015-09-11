@@ -77,7 +77,7 @@ h1 span {
 */
 
 
-/*
+
 
 .tabs {
   width: 95%;
@@ -149,7 +149,6 @@ h1 span {
 .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
   display: block;
 }
-*/
 
 
 
@@ -176,6 +175,7 @@ p.link a:hover {
 }
 */
 
+/*
 .tabs {
   position: relative;   
   min-height: 100px;
@@ -214,3 +214,4 @@ p.link a:hover {
 [type=radio]:checked ~ label ~ .content {
   display:block;
 }
+*/
