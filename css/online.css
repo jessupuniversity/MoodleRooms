@@ -248,3 +248,8 @@ h1 span {
 .tabbs #tabb3:checked ~ #tabb-content3{     
     display: block;
 }
+
+.viddesc {
+  text-align:center;
+  margin-top:20px;
+}
