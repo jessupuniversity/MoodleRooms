@@ -158,114 +158,88 @@ h1 span {
 
 
 
-/*
-p.link {
-  clear: both;
-  margin: 380px 0 0 15px;
-}
-p.link a {
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  color: #fff;
-  padding: 5px 10px;
-  margin: 0 5px;
-  background-color: #612e76;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-p.link a:hover {
-  background-color: #522764;
-}
-*/
 
-/*
-.tabs {
-  position: relative;   
-  min-height: 100px;
-  clear: both;
-  margin: 25px 0;
-}
-.tab {
-  float: left;
-}
-.tab label {
-  background: #eee; 
-  padding: 10px; 
-  border: 1px solid #ccc; 
-  margin-left: -1px; 
-  position: relative;
-  left: 1px; 
-}
-.tab [type=radio] {
-  display: none;   
-}
-.content {
-  position: absolute;
-  top: 28px;
-  left: 0;
-  background: white;
-  padding: 20px;
-  border: 1px solid #ccc; 
-    display:none;
-    min-width:700px;
-}
-[type=radio]:checked ~ label {
-  background: white;
-  border-bottom: 1px solid white;
-  z-index: 2;
-}
-[type=radio]:checked ~ label ~ .content {
-  display:block;
-}
-*/
 
 
 .tabbs{
-    max-width: 650px;
+    max-width: 100%;
     margin: 20px;       
     font-size: 0;
 }
 .tabbs input[type="radio"]{
     display: none;
 }
+
+/*
 .tabbs label{
     display: inline-block;
     padding: 10px 20px;
-    background: #2C3E50;
+    background: lightgray;
     color: #fff;    
-    font-size: 24px;   
+    font-size: 15px;    
 }
+*/
+.tabbs label {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  
+
+  z-index: 2;
+  padding: 10px 20px;
+  border-radius: 5px 5px 0 0;
+  font-size: 15px;
+  font-weight: normal;
+  background: #f5f5f5;
+  cursor: pointer;
+  top: 10px;
+
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
 .tabbs label:hover{   
-    background: #4B6988;
+    background: #D0D0D0;
 }
 .tabbs label:active,
 .tabbs label:focus{   
     background: #0088CC;
 }
+
 .tabbs input[type="radio"]:checked + label{
     display: inline-block; 
-    background: #0088CC;
+    padding-left: 15px;
+   font-size: 18px;
+    background: #022f59;
     color: #fff;
 }
+.tabbs input[type="radio"]:not(:checked) + label{
+    padding-left: 15px;
+}
+
 .tabb-content{
     display: none;
     font-size: 14px;
     font-family: 'segoe ui';
     padding: 15px;
-    border: 1px solid #ccc;
+ background: #f5f5f5;
     border-top: none;
     position: relative;
 }
+
+/*
 .tabb-content:before{
     content: '';
-    position: absolute; top: 0; left: -1px;
+    position: absolute; top: 5px; left: -1px;
     width: calc(100% + 2px);
-    height: 10px;
-    background: #08C;    
+    height: 3px;
+    background: #F5F5F5;   
 }
+*/
+
+
 .tabb-content h3{
     font-size: 22px;
 }
