@@ -8,43 +8,39 @@ h3{
 h3.first {
   padding-top:0px;
 }
+h3.turnitin {
+  font-size: 11pt;
+}
 h4{
   margin-left:30px;
   color: #022F59;
   font-size: 11pt;
   font-weight: bold;
 }
+
+/* CSS FOR LIST ITEM INDENTATION */
 .nobullet li {
   margin-left: 5px;
   padding-bottom: 10px;
   list-style-type: none;
 }
-.nobulletindent li{
-  margin-left: 30px; 
-  padding-bottom: 10px;
-  list-style-type: none;
-}
-.nobullettier2 li{
-  padding-top: 10px;
-  list-style-type: none;
-  padding-bottom: 0px;
-  margin-left: 0px;
-}
-.nobulletnest li{
-  padding-top:10px;
-  list-style-type:none;
-}
 .bullet li{
   margin-left: 30px;
   padding-bottom:10px;
 }
-.bullettier2 li{
+.turnitin li{
+  padding-bottom: 10px;
+}
+.indent li{
+  margin-left:30px;
+}
+.tier2 li{
   padding-top: 10px;
   padding-bottom: 0px;
   margin-left: 0px;
 }
 
-
+/* CSS FOR TABS */
 .tabbs{
     max-width: 100%;
     margin: 20px;       
