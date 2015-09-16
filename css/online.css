@@ -8,7 +8,7 @@ h3{
 h3.first {
   padding-top:0px;
 }
-h3.turnitin {
+.turnitin h3 {
   font-size: 11pt;
   padding-top:0px;
 }
