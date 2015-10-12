@@ -108,7 +108,8 @@ h4{
 .jotab #jotab2:checked ~ #jotab-content2,
 .jotab #jotab3:checked ~ #jotab-content3,
 .jotab #jotab4:checked ~ #jotab-content4,
-.jotab #jotab5:checked ~ #jotab-content5{     
+.jotab #jotab5:checked ~ #jotab-content5,
+.jotab #jotab6:checked ~ #jotab-content6{     
     display: block;
 }
 
