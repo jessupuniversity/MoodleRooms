@@ -111,6 +111,23 @@ h4{
     position: relative;
 }
 
+.jotab-content h3{
+    font-size: 22px;
+}
+.jotab #jotab1:checked ~ #jotab-content1,
+.jotab #jotab2:checked ~ #jotab-content2,
+.jotab #jotab3:checked ~ #jotab-content3,
+.jotab #jotab4:checked ~ #jotab-content4,
+.jotab #jotab5:checked ~ #jotab-content5{     
+    display: block;
+}
+
+.viddesc {
+  text-align:center;
+  margin-top:20px;
+}
+
+/* END CURRENT TAB CSS */
 
 /* OUTDATED CSS FOR TABS */
 .tabbs{
@@ -205,3 +222,5 @@ h4{
   text-align:center;
   margin-top:20px;
 }
+
+/* END OUTDATED CSS */
