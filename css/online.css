@@ -1,6 +1,6 @@
 /* <link href="//jessupuniversity.github.io/css/online.css" rel="stylesheet"> */
 h3{
-  padding-top: 20px;
+  /* padding-top: 20px; */
   color: #022F59;
   font-size: large;
   font-weight: bold;
@@ -255,7 +255,6 @@ h4{
 
 .container {
 	width: 100%;
-	overflow: visible;
 }
 .nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus {
     color: #fff;
@@ -272,6 +271,8 @@ h4{
 	border-bottom: 1px solid #e5e5e5;
 	}
 
-.nav-pills>.active>a {
-	border-radius: 5px 15px 0px 0px;
+.nav {
+	margin-bottom: 0px;
 }
+.tab-content {
+    overflow: visible;
