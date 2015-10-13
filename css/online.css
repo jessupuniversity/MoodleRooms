@@ -274,5 +274,30 @@ h4{
 .nav {
 	margin-bottom: 0px;
 }
+
+.image { 
+   position: relative; 
+}
+
+.text {
+   position: absolute;
+   top: 20px;
+   left: 0;
+   width: 100%;
+}
+
+.text span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.text span.spacer {
+   padding:0 5px;
+}
+
 .tab-content {
     overflow: visible;
