@@ -279,14 +279,14 @@ h4{
    position: relative; 
 }
 
-.text {
+.imgoverlay {
    position: absolute;
    top: 20px;
    left: 0;
    width: 100%;
 }
 
-.text span { 
+.imgoverlay span { 
    color: white; 
    font: bold 24px/45px Helvetica, Sans-Serif; 
    letter-spacing: -1px;  
@@ -295,7 +295,7 @@ h4{
    padding: 10px; 
 }
 
-.text span.spacer {
+.imgoverlay span.spacer {
    padding:0 5px;
 }
 
