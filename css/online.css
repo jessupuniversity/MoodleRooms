@@ -288,8 +288,9 @@ h4{
 }
 
 .imgoverlay span {
-   color: white;
-   font: bold 24px/7vh Helvetica, Sans-Serif;
+    box-decoration-break: clone;
+    color: white;
+   font: bold 24px/5.5vh Helvetica, Sans-Serif;
    font-size: 4vmin;
    letter-spacing: -1px;
    background: rgb(0, 0, 0);/* fallback color */
