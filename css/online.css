@@ -281,14 +281,15 @@ h4{
 
 .imgoverlay {
    position: absolute;
-   top: 20px;
+   top: 40px;
    left: 0;
    width: 100%;
 }
 
 .imgoverlay span { 
    color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
+   font: bold 24px/65px Helvetica, Sans-Serif; 
+   font-size: 4vmin;
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
