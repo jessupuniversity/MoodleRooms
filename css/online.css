@@ -303,3 +303,12 @@ h4{
 
 .tab-content {
     overflow: visible;
+}
+.jovblock h4  {
+	margin-left: 0px;
+	padding-top: 30px;
+}
+
+.jovblock h4.first {
+	padding-top: 0px;
+}
