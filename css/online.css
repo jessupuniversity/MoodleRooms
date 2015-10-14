@@ -148,10 +148,11 @@ h4{
 }
 
 @media (max-device-width: 991px) {
-    .mobile-only {
+   .mobile-only {
         display:block !important;
         margin-top:20px;
-       	padding: 5px;
+        padding: 10px;
+        text-align:center;
        	margin-left:auto;
        	margin-right:auto;
         background-color:#e5e5e5;
