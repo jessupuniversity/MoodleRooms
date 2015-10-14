@@ -1,19 +1,19 @@
 /* <link href="//jessupuniversity.github.io/css/online.css" rel="stylesheet"> */
 h3{
-  /* padding-top: 20px; */
+  padding-top: 20px;
   color: #022F59;
   font-size: large;
   font-weight: bold;
 }
-h3.first {
+h3:first-of-type {
   padding-top:0px;
 }
-/* DO WE WANT TO CHANGE THIS TO h3:first-of-type {padding-top:0px;}  */
 
-
+.joassignment h3 {
+  font-size: 11pt;
+}
 .turnitin h3 {
   font-size: 11pt;
-  padding-top:0px;
 }
 h4{
   margin-left:30px;
@@ -21,8 +21,6 @@ h4{
   font-size: 11pt;
   font-weight: bold;
 }
-
-/* CSS FOR LIST ITEM INDENTATION */
 .nobullet li {
   margin-left: 5px;
   padding-bottom: 10px;
@@ -35,23 +33,47 @@ h4{
 .turnitin li{
   padding-bottom: 10px;
 }
-.indent li{
-  margin-left:30px;
+.joassignment li{
+  padding-bottom: 10px;
 }
-.tier2 li{
+.nobullet h4+ul>li {
+	margin-left:30px;
+}
+.bullet>ul>li>ul>li {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.bullet>ul>li>ul>li>ul>li {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.nobullet>ul>li>ul>li {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.nobullet>ul>li>ul>li>ul>li {
   padding-top: 10px;
   padding-bottom: 0px;
   margin-left: 0px;
 }
 
 
-/* YOUTUBE RESIZE */
+/* YOUTUBE/VIDEO CONTAINER RESIZE */
 
 .jovblock {
 	width:60%;
 	margin: auto;
 	text-align:center;
-
+}
+.jovblock h4  {
+	margin-left: 0px;
+	padding-top: 30px;
+}
+.jovblock h4:first-of-type {
+	padding-top: 0px;
 }
 .jovideo {
 	position: relative;
@@ -94,12 +116,15 @@ h4{
 	border-radius: 5px 5px 0px 0px;
 	border-bottom: 1px solid #e5e5e5;
 	}
-
 .nav {
 	margin-bottom: 0px;
 }
+.tab-content {
+    overflow: visible;
+}
 
-.image { 
+/* START TAB IMAGE + IMAGE OVERLAY */
+.joimg { 
    position: relative; 
    padding-top: 20px;
 }
@@ -122,15 +147,3 @@ h4{
 				-10px 0 0 rgba(0,0,0,0.5)
 }
 
-.tab-content {
-    overflow: visible;
-}
-.jovblock h4  {
-	margin-left: 0px;
-	padding-top: 30px;
-}
-
-
-.jovblock h4:first-of-type {
-	padding-top: 0px;
-}
