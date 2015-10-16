@@ -35,22 +35,12 @@ h4{
 .nobullet h4+ul>li {
 	margin-left:30px;
 }
-.bullet>ul>li>ul>li {
+.bullet li li{
   padding-top: 10px;
   padding-bottom: 0px;
   margin-left: 0px;
 }
-.bullet>ul>li>ul>li>ul>li {
-  padding-top: 10px;
-  padding-bottom: 0px;
-  margin-left: 0px;
-}
-.nobullet>ul>li>ul>li {
-  padding-top: 10px;
-  padding-bottom: 0px;
-  margin-left: 0px;
-}
-.nobullet>ul>li>ul>li>ul>li {
+.nobullet li li{
   padding-top: 10px;
   padding-bottom: 0px;
   margin-left: 0px;
@@ -74,26 +64,17 @@ h4{
 .jonobullet h4+ul>li {
 	margin-left:30px;
 }
-.jobullet>ul>li>ul>li {
+.jobullet li li {
   padding-top: 10px;
   padding-bottom: 0px;
   margin-left: 0px;
 }
-.jobullet>ul>li>ul>li>ul>li {
+.jonobullet li li {
   padding-top: 10px;
   padding-bottom: 0px;
   margin-left: 0px;
 }
-.jonobullet>ul>li>ul>li {
-  padding-top: 10px;
-  padding-bottom: 0px;
-  margin-left: 0px;
-}
-.jonobullet>ul>li>ul>li>ul>li {
-  padding-top: 10px;
-  padding-bottom: 0px;
-  margin-left: 0px;
-}
+
 /* End Tab CSS */
 
 
