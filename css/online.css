@@ -194,7 +194,7 @@ h4{
         background-color:#e5e5e5;
         border-top: 1px solid #efefef;
     }
-    desktop-only{
+    .desktop-only{
     	display:none !important;
     }
 }
@@ -202,5 +202,8 @@ h4{
 @media (min-device-width: 992px) {
     .mobile-only {
         display:none !important;
+    }
+      .desktop-only{
+    	display:block !important;
     }
 }
