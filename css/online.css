@@ -84,7 +84,11 @@ h4{
 .joassignment li{
   padding-bottom: 10px;
 }
-
+.joassignment li li {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
 
 
 /* YOUTUBE/VIDEO CONTAINER RESIZE */
