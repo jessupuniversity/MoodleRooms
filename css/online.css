@@ -74,6 +74,11 @@ h4{
   padding-bottom: 0px;
   margin-left: 0px;
 }
+.jonobullet ol > li {
+	list-style-type: decimal;
+	margin-left: 10px;
+/* It's possible that tier 2 list items may not look 100% correct after following this child selector; just be aware of that when designing.*/
+}
 
 /* End Tab CSS */
 
