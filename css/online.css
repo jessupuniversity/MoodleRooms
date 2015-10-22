@@ -242,9 +242,13 @@ h4{
 
 .amara-week p {
 	text-align: center;
-	padding-bottom: 300px;
 	margin-top: 20px;
 	color: #022F59;
 	font-size: 11pt;
 	font-weight: bold;
+}
+
+.amara-week a {
+	display: inline-block;
+	padding-bottom: 300px;
 }
