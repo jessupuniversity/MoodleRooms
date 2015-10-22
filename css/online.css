@@ -224,3 +224,27 @@ h4{
     	display:block !important;
     }
 }
+
+/* AMARA CSS */
+
+.amara-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+	width: 620px;
+}
+
+.amara-week h3 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.amara-week p {
+	text-align: center;
+	padding-bottom: 300px;
+	margin-top: 20px;
+	color: #022F59;
+	font-size: 11pt;
+	font-weight: bold;
+}
