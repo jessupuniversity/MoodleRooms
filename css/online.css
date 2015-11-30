@@ -15,7 +15,7 @@ h3:first-of-type {
 .turnitin h3 {
   font-size: 11pt;
 }
-h4, h5{
+h4, h5, h6{
   margin-left:30px;
   color: #022F59;
   font-size: 11pt;
@@ -112,11 +112,11 @@ h4, h5{
 	text-align:center;
 	overflow:hidden;
 }
-.jovblock h4, h5  {
+.jovblock h4, h5, h6  {
 	margin-left: 0px;
 	padding-top: 30px;
 }
-.jovblock h4:first-of-type, h5:first-of-type {
+.jovblock h4:first-of-type, h5:first-of-type, h6:first-of-type {
 	padding-top: 0px;
 }
 .jovideo {
