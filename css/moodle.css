@@ -66,6 +66,9 @@ h1, h2, h3, h4.categoryname {
 	margin-bottom:20px;
 	margin-top:20px;
 }
+#page-site-index #page-header, #page-my-index #page-header {
+	margin:0 -20px;
+}
 #page-site-index #page-header h1, #page-my-index #page-header h1 {
 	background:url() no-repeat top center;
 	background-size: auto 100%;
@@ -73,6 +76,9 @@ h1, h2, h3, h4.categoryname {
 	margin:0 -20px 15px;
 	overflow:hidden;
 	padding:310px 0 0;
+}
+#page-site-index .page-header-headings, #page-my-index .page-header-headings {
+	margin:0;
 }
 .breadcrumb{
 	background:none;
