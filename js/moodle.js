@@ -15,5 +15,5 @@ var backgrounds = [
 ];
 var index = Math.floor(Math.random() * (3 - 0)) + 0;
 
-$('#page-site-index #page-header h1, #page-my-index #page-header h1').css('background-image', backgrounds[index]);
+$('#page-site-index #page-header h1').css('background-image', backgrounds[index]);
 //$('#page-mod-turnitintooltwo-view #accreditation, #page-mod-turnitintooltwo-view #footer-credits').remove();
