@@ -66,10 +66,10 @@ h1, h2, h3, h4.categoryname {
 	margin-bottom:20px;
 	margin-top:20px;
 }
-#page-site-index #page-header, #page-my-index #page-header {
+#page-site-index #page-header {
 	margin:0 -20px;
 }
-#page-site-index #page-header h1, #page-my-index #page-header h1 {
+#page-site-index #page-header h1 {
 	background:url() no-repeat top center;
 	background-size: auto 100%;
 	height:0;
@@ -77,7 +77,7 @@ h1, h2, h3, h4.categoryname {
 	overflow:hidden;
 	padding:310px 0 0;
 }
-#page-site-index .page-header-headings, #page-my-index .page-header-headings {
+#page-site-index .page-header-headings {
 	margin:0;
 }
 .breadcrumb{
