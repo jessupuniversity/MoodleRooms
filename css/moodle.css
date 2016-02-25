@@ -209,7 +209,7 @@ div.left.side {
 }
 
 @media (max-width: 979px) {
-	body#page-site-index header#page-header h1, body#page-my-index header#page-header h1 {
+	body#page-site-index header#page-header h1 {
 		padding-top:180px;
 	}
 	body {
@@ -231,7 +231,7 @@ div.left.side {
 }
 
 @media (max-width: 767px){
-	body#page-site-index header#page-header h1, body#page-my-index header#page-header h1 {
+	body#page-site-index header#page-header h1 {
 		background-size: auto 135%;
 		padding-top:100px;
 	}
