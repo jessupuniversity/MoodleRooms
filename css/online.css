@@ -102,7 +102,9 @@ h4, h5, h6{
   padding-bottom: 0px;
   margin-left: 0px;
 }
-
+.joassignment a{
+  color:#022F59;
+}
 
 /* YOUTUBE/VIDEO CONTAINER RESIZE */
 
