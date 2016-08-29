@@ -254,3 +254,21 @@ h4, h5, h6{
 	display: inline-block;
 	padding-bottom: 300px;
 }
+
+/**Library embed code.**/
+.library .s-la-widget-header{
+background:#002F59;
+color:#ffffff;
+padding:5px;
+}
+
+.library .s-la-widget-embed{
+border:0;
+padding:0;
+}
+.library .s-la-widget fieldset{
+padding-left:20px;
+}
+
+.library .s-la-askform-reqnote{
+padding-left:20px;}
