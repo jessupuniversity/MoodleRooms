@@ -88,6 +88,10 @@ h4, h5, h6{
 /* It's possible that tier 2 list items may not look 100% correct after following this child selector; just be aware of that when designing.*/
 }
 
+#menuassn a{
+	font-weight:bold;
+}
+
 /* End Tab CSS */
 
 
