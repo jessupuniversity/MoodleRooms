@@ -1,0 +1,287 @@
+/* <link href="//jessupuniversity.github.io/css/online.css" rel="stylesheet"> */
+h3{
+  padding-top: 20px;
+  color: #022F59;
+  font-size: large;
+  font-weight: bold;
+}
+h3:first-of-type {
+  padding-top:0px;
+}
+
+.joassignment h3 {
+  font-size: 11pt;
+}
+.turnitin h3 {
+  font-size: 11pt;
+}
+h4, h5, h6{
+  margin-left:30px;
+  color: #022F59;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+/* Pre-tab CSS (can be deleted later) */
+.nobullet li {
+  margin-left: 5px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+.bullet li{
+  margin-left: 30px;
+  padding-bottom:10px;
+}
+.nobullet h4+ul>li {
+	margin-left:30px;
+}
+.bullet li li{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.nobullet li li{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.bullet h3 {
+	padding-top:20px;
+}
+.jobullet h4{
+	padding-top: 20px;
+	border-top: 1px solid #e5e5e5;
+}
+.jobullet h4:first-of-type {
+	padding-top: 0px;
+	border-top: none;
+}
+/* End Pre-tab CSS */
+
+
+/* Start Current Tab CSS */
+.jonobullet li {
+  margin-left: 5px;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+.jobullet li{
+  margin-left: 30px;
+  padding-bottom:10px;
+}
+.jonobullet h4+ul>li {
+	margin-left:30px;
+}
+.jobullet li li {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.jonobullet li li {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.jonobullet ol > li {
+	list-style-type: decimal;
+	margin-left: 10px;
+/* It's possible that tier 2 list items may not look 100% correct after following this child selector; just be aware of that when designing.*/
+}
+
+#menuassn a{
+	font-weight:bold;
+}
+
+
+
+
+
+/* End Tab CSS */
+
+
+.turnitin li{
+  padding-bottom: 10px;
+}
+.joassignment li{
+  padding-bottom: 10px;
+}
+.joassignment li li {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+.joassignment a{
+  color:#00549F;
+}
+
+/* YOUTUBE/VIDEO CONTAINER RESIZE */
+
+.jovblock {
+	width:60%;
+	margin: auto;
+	text-align:center;
+	overflow:hidden;
+}
+.jovblock h4, h5, h6  {
+	margin-left: 0px;
+	padding-top: 30px;
+}
+.jovblock h4:first-of-type, h5:first-of-type, h6:first-of-type {
+	padding-top: 0px;
+}
+.jovideo {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	
+}
+.jovideo iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.jovideo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* CUSTOMIZATION FOR JAVASCRIPT PAGES */
+
+.container {
+	width: 100%;
+}
+.nav-pills>.active>a, .nav-pills>.active>a:hover, .nav-pills>.active>a:focus {
+    color: #fff !important;
+    background-color: #022F59 !important;
+    /* font-size:  large; */ 
+}
+
+.nav-pills > li > a {
+	margin-right:10px !important;
+		font-size: large !important;
+	color: #022F59 !important;
+	background-color: #f5f5f5 !important;
+	border-radius: 5px 5px 0px 0px !important;
+	border-bottom: 1px solid #e5e5e5 !important;
+	padding: .25em .5em !important;
+	}
+	
+.nav-pills > li{
+	float:left;
+}
+.nav {
+	margin-bottom: 0px;
+}
+.tab-content {
+    overflow: visible;
+}
+
+
+/* START TAB IMAGE + IMAGE OVERLAY */
+.joimg { 
+   position: relative; 
+   padding-top: 20px;
+    max-height: 600px;
+  overflow: hidden;
+
+}
+
+.joimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.imgoverlay {
+    position: absolute;
+    top: 40px;
+    margin-right:5px;
+    box-decoration-break: clone;
+    color: white;
+    font: bold 4vh Helvetica, Sans-Serif;
+        font-size: 4vmin;
+    letter-spacing: -1px;
+    background rgb(0,0,0);
+    background: rgba(0, 0, 0, .5);
+    padding-top:10px;
+    padding-bottom:10px;
+    left:10px;
+    box-shadow: 10px 0 0 rgba(0,0,0,.5),
+				-10px 0 0 rgba(0,0,0,0.5)
+}
+
+@media (max-device-width: 991px) {
+   .mobile-only {
+        display:block !important;
+        margin-top:20px;
+        padding: 10px;
+        text-align:center;
+       	margin-left:auto;
+       	margin-right:auto;
+        background-color:#e5e5e5;
+        border-top: 1px solid #efefef;
+    }
+    .desktop-only{
+    	display:none !important;
+    }
+}
+
+@media (min-device-width: 992px) {
+    .mobile-only {
+        display:none !important;
+    }
+      .desktop-only{
+    	display:block !important;
+    }
+}
+
+/* AMARA CSS */
+
+.amara-container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+	width: 620px;
+}
+
+.amara-week h3 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.amara-week p {
+	text-align: center;
+	margin-top: 20px;
+	color: #022F59;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.amara-week a {
+	display: inline-block;
+	padding-bottom: 300px;
+}
+
+/**Library embed code.**/
+.library .s-la-widget-header{
+background:#002F59;
+color:#ffffff;
+padding:5px;
+}
+
+.library .s-la-widget-embed{
+border:0;
+padding:0;
+}
+.library .s-la-widget fieldset{
+padding-left:20px;
+}
+
+.library .s-la-askform-reqnote{
+padding-left:20px;}
